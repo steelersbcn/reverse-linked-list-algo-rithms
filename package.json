@@ -1,0 +1,23 @@
+{
+  "name": "reverse-linked-list-algo-rithms",
+  "version": "1.0.0",
+  "description": "Algorithm for \"Algo Rithms\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Videiraft/reverse-linked-list-algo-rithms.git"
+  },
+  "author": "Fábio Videira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Videiraft/reverse-linked-list-algo-rithms/issues"
+  },
+  "homepage": "https://github.com/Videiraft/reverse-linked-list-algo-rithms#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
