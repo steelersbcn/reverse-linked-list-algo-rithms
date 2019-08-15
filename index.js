@@ -9,7 +9,7 @@ class ListNode {
     this.next = null
   }
 }
-Example: 
+Example:
 Input: 4 -> 3 -> 2 -> 1 -> 0 -> null
 Output: 0 -> 1 -> 2 -> 3 -> 4 -> null
 */
@@ -21,13 +21,21 @@ let reverseRecursively
 // Iterative Solution
 reverseIteratively = (head) => {
   // write your code HERE
-
+  let p = null;
+  let c = head;
+  let n = c.next;
+  while (c) {
+    c.next = p;
+    p = c;
+    c = n;
+    if (c) n = n.next;
+  }
 }
 
-// (Extra!) Recursive Solution   
+// (Extra!) Recursive Solution
 // reverseRecursively = (head) => {
 //   // write your code HERE
-//  
+//
 // }
 
 module.exports = { reverseIteratively, reverseRecursively };
